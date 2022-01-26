@@ -34,7 +34,10 @@ function App() {
     <div>
       <Navbar mode={mode} title="TextUtils" toggleMode={toggleMode} />
       <Alert alert={alert} />
-      <Home title="TextUtils" mode={mode} />
+      <Home
+        title="TextUtils word counter,character counter, remove extra spaces"
+        mode={mode}
+      />
     </div>
   );
 }
